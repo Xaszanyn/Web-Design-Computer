@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 0.0753vw;
+    font-family: 'Play', sans-serif;
+    color: #070707;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+}
+
+/* Navigation */
+
+nav
+{
+    width: 100%;
+    height: 120rem;
+    background-color: rgba(7, 7, 7, 80%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+    position: fixed;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+#nav-left {
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 100rem;
+    height: 100rem;
+    border-radius: 50%;
+    border: 4rem solid #070707;
+}
+
+#logo:hover {
+    border: 4rem solid #BF0707;
+}
+
+h1 {
+    color: #BF0707;
+    font-size: 60rem;
+    margin-left: 40rem;
+    -webkit-text-stroke: 2rem #F7F7F7;
+    
+}
+
+h1:hover {
+    color: #070707;
+    text-shadow: 0 0 5rem #F7F7F7;
+}
+
+nav ul a {
+    font-size: 20rem;
+    color: #F7F7F7;
+    margin-right: 25rem;
+}
+
+nav ul a:hover {
+    color: #BF0707;
+    font-size: 25rem;
+    text-shadow: 0 0 2rem #BF0707;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 240rem;
+    padding-left: 150rem;
+}
+
+#header-content {
+    font-size: 20rem;
+    width: 50%;
+    color: rgba(247, 247, 247, 80%);
+    text-align: justify;
+}
+
+h2 {
+    font-size: 40rem;
+    font-weight: lighter;
+    margin-bottom: 20rem;
+}
+
+#header-content p {
+    margin-bottom: 20rem;
+}
+
+#header-content a {
+    color: inherit;
+}
+
+#header-content a:hover {
+    font-size: 25rem;
+    color: #BF0707;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+}
+
+#background video {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#computer {
+    position: absolute;
+    top: 52.5%;
+    right: 0;
+    font-size: 40rem;
+    color: rgba(247, 247, 247, 80%);
+    background-color: rgba(7, 7, 7, 40%);
+    padding: 10rem;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+}
+
+#computer:hover {
+    color: #F7F7F7;
+    background-color: rgba(7, 7, 7, 80%);
+    padding-right: 20rem;
+}
+
+/* Content */
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100rem 0;
+}
+
+section {
+    background-color: rgba(247, 247, 247, 80%);
+    margin-bottom: 40rem;
+    padding: 100rem;
+    font-size: 20rem;
+    border-radius: 20rem;
+    text-align: justify;
+}
+
+section h3 {
+    font-size: 50rem;
+    font-weight: lighter;
+    margin-bottom: 40rem;
+}
+
+section h4 {
+    font-size: 30rem;
+    font-weight: lighter;
+    margin-bottom: 10rem;
+}
+
+section p {
+    margin-bottom: 10rem;
+}
+
+section a {
+    color: #BF0707;
+}
+
+section a:hover {
+    text-shadow: 0 0 2rem #BF0707;
+}
+
+section .icon-app {
+    display: flex;
+    align-items: center;
+}
+
+section .icon-app img {
+    width: 25rem !important;
+    height: 25rem !important;
+    margin-right: 10rem !important;
+}
+
+.border {
+    border: 4rem solid rgba(7, 7, 7, 80%);
+    border-radius: 2rem;
+}
+
+.divide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divide > div:last-of-type img {
+    height: 200rem;
+    width: auto;
+    margin-left: 40rem;
+}
+
+.divide > div:first-of-type img {
+    height: auto;
+    width: 200rem;
+    margin-right: 40rem;
+}
+
+.time {
+    text-align: right;
+    font-style: italic;
+    color: rgba(7, 7, 7, 80%);
+}
+
+.space {
+    margin-bottom: 60rem;
+}
+
+.space-between {
+    margin-left: 20rem;
+}
+
+section>div>img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 20rem auto;
+}
+
+.pointer {
+    transform: translateY(-240rem);
+}
+
+.to-left {
+    justify-content: flex-start;
+}
+
+#websites li {
+    margin-bottom: 20rem;
+}
+
+.website {
+    display: block;
+    font-size: 30rem;
+    margin-bottom: 10rem;
+}

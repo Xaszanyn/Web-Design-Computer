@@ -1,0 +1,27 @@
+<h1>Arduino Projects</h1>
+
+<div class="flex">
+    <div class="photograph" style="width: 25.5vw;">
+        <img src="https://digicertify.net/cert/K4BD8O65" alt="Certificate of Participation">
+        <div class="tape"></div>
+    </div>
+
+    <div class="photograph" style="width: 25.5vw;">
+        <img src="https://digicertify.net/cert/X2L9Bz85" alt="Professional Certificate">
+        <div class="tape"></div>
+    </div>
+</div>
+
+<ul>
+    <li><a class="popUp" id="ap-p" href="#">Project: Ordering System</a></li>
+    <li><a class="popUp" id="ap-10" href="#">Displaying Scaling With Potentiometer (10)</a></li>
+    <li><a class="popUp" id="ap-9" href="#">Game Controller With Potentiometer (9)</a></li>
+    <li><a class="popUp" id="ap-8" href="#">Buzzer Music (8)</a></li>
+    <li><a class="popUp" id="ap-7" href="#">Little Mechanic Arm (7)</a></li>
+    <li><a class="popUp" id="ap-6" href="#">Wireless Servo Motor (6)</a></li>
+    <li><a class="popUp" id="ap-5" href="#">Wireless LED Lights (5)</a></li>
+    <li><a class="popUp" id="ap-4" href="#">Automatic Servo Motor (4)</a></li>
+    <li><a class="popUp" id="ap-3" href="#">Potentiometer (3)</a></li>
+    <li><a class="popUp" id="ap-2" href="#">RGB LED Lights (2)</a></li>
+    <li><a class="popUp" id="ap-1" href="#">LED Lights (1)</a></li>
+</ul>

@@ -1,0 +1,58 @@
+html {
+    background-color: #070707;
+}
+
+.navbar, .navbar button, #nav-drawer, #page-footer {
+    background-color: #1F1F23 !important;
+}
+
+#nav-drawer::-webkit-scrollbar {
+    display: none;
+}
+
+#nav-drawer {
+    margin-top: 1rem;
+}
+
+#nav-drawer .list-group-item.active {
+    background-color: #4F4F57 !important;
+    border-color: #4F4F57 !important;
+
+}
+
+#nav-drawer a {
+    background-color: #27272B !important;
+    color: #F7F7F7 !important;
+    transition: background-color .3s;
+}
+
+.navbar button:hover, .navbar button:active, .ekinDark button:focus, #nav-drawer a:hover {
+    background-color: #BF0707 !important;
+}
+
+.navbar * {
+    color: #F7F7F7 !important;
+}
+
+#page {
+    background-color: #070707 !important;
+}
+
+#page-header .card, #region-main {
+    background-color: #1F1F23 !important;
+    color: #F7F7F7 !important;
+}
+
+#region-main {
+    background-color: #1F1F23 !important;
+}
+
+#page a, #page-footer a {
+    color: #7FDFDF !important;
+    text-decoration: none !important;
+    transition: color .3s;
+}
+
+#page a:hover, #page-footer a:hover {
+    color: #3F6FDF !important;
+}

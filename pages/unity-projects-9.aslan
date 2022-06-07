@@ -1,0 +1,23 @@
+<h1>Fly Around (Next In Game)</h1>
+
+<p style="text-align: right;">28 August 2021</p>
+
+<p>My first complete 3D game that I made the music and visuals myself in 2 weeks in the Next In Game Comptetition.</p>
+
+<a class="default" href="https://youtu.be/jP_3nopK0eU" target="_blank">First Disgusting Version (Youtube)</a>
+<a class="default" href="https://youtu.be/FPhkfWSEouk" target="_blank">Gameplay (Youtube)</a>
+
+<p>The mechanic was fine but designing the power-ups and levels were hard.</p>
+
+<br>
+<div class="flex" style="justify-content: center;">
+<div class="photograph">
+        <img src="resources/images/fly-around.gif" alt="Gameplay">
+        <div class="tape"></div>
+</div>
+</div>
+
+<div class="flex" style="justify-content: flex-start; align-items: flex-start;">
+        <img class="icon" src="resources/images/fly-around-icon.png">
+        <a class="default" href="resources/games/fly-around.apk">Fly Around (Android)</a>
+</div>

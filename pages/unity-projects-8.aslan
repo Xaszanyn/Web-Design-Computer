@@ -1,0 +1,11 @@
+<h1>Lane</h1>
+
+<p>It's dead game, but I trained my lane mechanic skills</p>
+
+<br>
+<div class="flex" style="justify-content: center;">
+<div class="photograph">
+        <img src="resources/images/lane.gif" alt="Gameplay">
+        <div class="tape"></div>
+</div>
+</div>
